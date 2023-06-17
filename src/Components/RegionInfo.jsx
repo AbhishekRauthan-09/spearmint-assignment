@@ -33,6 +33,9 @@ const RegionInfo = ({ country }) => {
               <p>
                 Continent :<span>{country.continents}</span>
               </p>
+              <p>
+              timezones :<span>{country.timezones}</span>
+              </p>
           </div>
         </>
       )}
