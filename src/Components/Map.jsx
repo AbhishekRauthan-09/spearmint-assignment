@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { VectorMap, vectorMap } from "@react-jvectormap/core";
+import { VectorMap } from "@react-jvectormap/core";
 import { worldMill } from "@react-jvectormap/world";
 import axios from "axios";
 import RegionInfo from "./RegionInfo";
