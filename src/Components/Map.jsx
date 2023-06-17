@@ -9,6 +9,10 @@ const Map = () => {
   const [country, setCountry] = useState(null);
 
   useEffect(() => {
+    alert("Select Any Country in the map to get Info about the Country");
+  }, []);
+
+  useEffect(() => {
     const getCountryInfo = async () => {
       const res = await axios.get(
         `https://restcountries.com/v3.1/alpha/${countryCode}`
