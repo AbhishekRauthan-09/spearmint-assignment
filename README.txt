@@ -6,6 +6,10 @@
 
 -> Open Terminal in the Extracted Folder
 
--> Now install packages of jvectormap/core and jvectormap/world use the command "npm i @react-jvectormap/core @react-jvectormap/world"
+-> Now install packages of jvectormap/core and jvectormap/world use the command "
+npm i @react-jvectormap/core 
+npm i @react-jvectormap/world 
+npm i axios 
+npm i react-dom"
 
 -> After installing packages you can simplyrun the Application with the command "npm start"
